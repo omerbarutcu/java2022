@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/arkadasSayilar/arkadasSayilar.iml" filepath="$PROJECT_DIR$/1st lesson assignments/arkadasSayilar/arkadasSayilar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/arraysDemo/arraysDemo.iml" filepath="$PROJECT_DIR$/1st lesson assignments/arraysDemo/arraysDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/conditionals/conditionals.iml" filepath="$PROJECT_DIR$/1st lesson assignments/conditionals/conditionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/datatypes/datatypes.iml" filepath="$PROJECT_DIR$/1st lesson assignments/datatypes/datatypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intro/intro.iml" filepath="$PROJECT_DIR$/intro/intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java2022.iml" filepath="$PROJECT_DIR$/.idea/java2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/javaHelloWorld/javaHelloWorld.iml" filepath="$PROJECT_DIR$/1st lesson assignments/javaHelloWorld/javaHelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/loopDemo/loopDemo.iml" filepath="$PROJECT_DIR$/1st lesson assignments/loopDemo/loopDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/miniProjeAsalSayi/miniProjeAsalSayi.iml" filepath="$PROJECT_DIR$/1st lesson assignments/miniProjeAsalSayi/miniProjeAsalSayi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/mukemmelSayi/mukemmelSayi.iml" filepath="$PROJECT_DIR$/1st lesson assignments/mukemmelSayi/mukemmelSayi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/multiDimensionalArrayDemo/multiDimensionalArrayDemo.iml" filepath="$PROJECT_DIR$/1st lesson assignments/multiDimensionalArrayDemo/multiDimensionalArrayDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/reCapDemo2/reCapDemo2.iml" filepath="$PROJECT_DIR$/1st lesson assignments/reCapDemo2/reCapDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/recapDemo1/recapDemo1.iml" filepath="$PROJECT_DIR$/1st lesson assignments/recapDemo1/recapDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/sayiBulma/sayiBulma.iml" filepath="$PROJECT_DIR$/1st lesson assignments/sayiBulma/sayiBulma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/sesliHarfler/sesliHarfler.iml" filepath="$PROJECT_DIR$/1st lesson assignments/sesliHarfler/sesliHarfler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/stringsDemo/stringsDemo.iml" filepath="$PROJECT_DIR$/1st lesson assignments/stringsDemo/stringsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/switchDemo/switchDemo.iml" filepath="$PROJECT_DIR$/1st lesson assignments/switchDemo/switchDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1st lesson assignments/variables/variables.iml" filepath="$PROJECT_DIR$/1st lesson assignments/variables/variables.iml" />
+    </modules>
+  </component>
+</project>
