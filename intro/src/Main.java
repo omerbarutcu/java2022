@@ -33,7 +33,6 @@ public class Main {
 
         for (int i = 0; i < krediler.length; i++) {
             System.out.println(krediler[i]);
-
         }
     }
 }
