@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2st lesson assignments.iml" filepath="$PROJECT_DIR$/.idea/2st lesson assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classes/classes.iml" filepath="$PROJECT_DIR$/classes/classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classesWithAttributes/classesWithAttributes.iml" filepath="$PROJECT_DIR$/classesWithAttributes/classesWithAttributes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inheritanceDemo/inheritanceDemo.iml" filepath="$PROJECT_DIR$/inheritanceDemo/inheritanceDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methodOverloading/methodOverloading.iml" filepath="$PROJECT_DIR$/methodOverloading/methodOverloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/methods.iml" filepath="$PROJECT_DIR$/methods/methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods2/methods2.iml" filepath="$PROJECT_DIR$/methods2/methods2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reCapDemo_Classes/reCapDemo_Classes.iml" filepath="$PROJECT_DIR$/reCapDemo_Classes/reCapDemo_Classes.iml" />
+    </modules>
+  </component>
+</project>
