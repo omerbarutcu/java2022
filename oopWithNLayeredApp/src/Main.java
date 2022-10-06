@@ -14,5 +14,6 @@ public class Main {
 
         ProductManager productManager = new ProductManager(new JdbcProductDao(),loggers);
         productManager.add(product1);
+
     }
 }
