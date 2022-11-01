@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c2de3e-91dc-42f4-b12d-2f02117739c6" name="Changes" comment="" />
+    <list default="true" id="1fad7c4a-34de-4308-a442-772de2863421" name="Changes" comment="4. ödev" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,18 +12,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
-      </map>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,35 +23,27 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+  <component name="ProjectId" id="2GxEqFyP0WOPWnfNQqefTqNMmob" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectId" id="2GdfkKcOU8PIvu7PZNzJFAIOjGw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/campspring",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "fc35636f95729dd53dcf805004341a9f"
+    "last_opened_file_path": "D:/java2022/4st lesson assignments/kodlamaIoDevs"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="RentACarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="rentACar" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="kodlama.io.rentACar.RentACarApplication" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Devs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kodlama.io.devs.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,19 +52,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b1c2de3e-91dc-42f4-b12d-2f02117739c6" name="Changes" comment="" />
-      <created>1666723522625</created>
+      <changelist id="1fad7c4a-34de-4308-a442-772de2863421" name="Changes" comment="" />
+      <created>1667322023233</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666723522625</updated>
-      <workItem from="1666723523960" duration="64000" />
-      <workItem from="1667298701718" duration="120000" />
-      <workItem from="1667298838177" duration="349000" />
-      <workItem from="1667299414702" duration="298000" />
-      <workItem from="1667299737986" duration="953000" />
-      <workItem from="1667300775333" duration="51000" />
-      <workItem from="1667300891115" duration="116000" />
+      <updated>1667322023233</updated>
+      <workItem from="1667322024504" duration="109000" />
     </task>
+    <task id="LOCAL-00001" summary="4. ödev">
+      <created>1667322093311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667322093311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +82,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="4. ödev" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. ödev" />
   </component>
 </project>
