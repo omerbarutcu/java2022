@@ -28,5 +28,13 @@ public class Main {
         Instructor instructor = new Instructor(1, "Engin", "Demiroğ");
         InstructorManager instructorManager = new InstructorManager(new JdbcInstructorDao(), loggers);
         instructorManager.add(instructor);
+
+        int sayi1 = 10;
+        int sayi2 = 20;
+        sayi1 = sayi2;
+        sayi2 = 100;
+        System.out.println("sayı1 : " + sayi1);  // konsol çıktısı       sayı1 = 20 dir.
+
+
     }
 }
