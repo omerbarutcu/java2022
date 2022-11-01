@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c2de3e-91dc-42f4-b12d-2f02117739c6" name="Changes" comment="" />
+    <list default="true" id="b1c2de3e-91dc-42f4-b12d-2f02117739c6" name="Changes" comment="4. ders sonu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/campspring",
+    "last_opened_file_path": "D:/java2022/campspring",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "fc35636f95729dd53dcf805004341a9f"
   }
@@ -84,7 +86,16 @@
       <workItem from="1667299737986" duration="953000" />
       <workItem from="1667300775333" duration="51000" />
       <workItem from="1667300891115" duration="116000" />
+      <workItem from="1667301061480" duration="2055000" />
     </task>
+    <task id="LOCAL-00001" summary="4. ders sonu">
+      <created>1667301208033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667301208033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4. ders sonu" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. ders sonu" />
   </component>
 </project>
