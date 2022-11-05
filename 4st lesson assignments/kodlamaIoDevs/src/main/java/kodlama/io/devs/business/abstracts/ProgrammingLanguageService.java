@@ -9,9 +9,9 @@ public interface ProgrammingLanguageService {
 
     void delete(int id);
 
-    void update(ProgrammingLanguage programmingLanguage);
+    void update(ProgrammingLanguage programmingLanguage)throws Exception;
 
     List<ProgrammingLanguage> getAll();
 
-    ProgrammingLanguage getById(int id);
+    ProgrammingLanguage findById(int id);
 }

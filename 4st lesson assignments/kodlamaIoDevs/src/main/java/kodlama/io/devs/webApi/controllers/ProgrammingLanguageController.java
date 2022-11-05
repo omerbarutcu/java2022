@@ -23,11 +23,11 @@ public class ProgrammingLanguageController {
     }
 
     @PutMapping("/update")
-    public void update(@RequestBody ProgrammingLanguage programmingLanguage) {
+    public void update(@RequestBody ProgrammingLanguage programmingLanguage) throws Exception {
         programmingLanguageService.update(programmingLanguage);
     }
 
-    @DeleteMapping("/delete")
+    @DeleteMapping("/delete/{id}")
     public void delete(@PathVariable int id) {
         programmingLanguageService.delete(id);
     }
@@ -37,8 +37,8 @@ public class ProgrammingLanguageController {
         return programmingLanguageService.getAll();
     }
 
-    @GetMapping("/getbyid")
-    public ProgrammingLanguage getById(@PathVariable int id) {
-        return programmingLanguageService.getById(id);
+    @GetMapping("/{id}")
+    public ProgrammingLanguage findById(@PathVariable int id) {
+        return programmingLanguageService.findById(id);
     }
 }
