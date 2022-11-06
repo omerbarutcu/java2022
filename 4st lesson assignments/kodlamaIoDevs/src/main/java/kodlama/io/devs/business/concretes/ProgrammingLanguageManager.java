@@ -23,7 +23,7 @@ public class ProgrammingLanguageManager implements ProgrammingLanguageService {
 
     @Override
     public void add(ProgrammingLanguage programmingLanguage) throws Exception {
-        if (!ProgrammingLanguageControl.nameControl(programmingLanguage, programmingLanguages)) {
+        if (!ProgrammingLanguageControl.programmingLanguageNameControl(programmingLanguage, programmingLanguages)) {
             throw new Exception("This Programming language is not valid !");
         }
         programmingLanguageRepository.save(programmingLanguage);
@@ -36,7 +36,7 @@ public class ProgrammingLanguageManager implements ProgrammingLanguageService {
 
     @Override
     public void update(ProgrammingLanguage programmingLanguage) throws Exception {
-        if (!ProgrammingLanguageControl.nameControl(programmingLanguage, programmingLanguages)) {
+        if (!ProgrammingLanguageControl.programmingLanguageNameControl(programmingLanguage, programmingLanguages)) {
             throw new Exception("This Programming language is not valid");
         }
         ProgrammingLanguage programmingLanguageTemp = programmingLanguageRepository.getReferenceById(programmingLanguage.getId());

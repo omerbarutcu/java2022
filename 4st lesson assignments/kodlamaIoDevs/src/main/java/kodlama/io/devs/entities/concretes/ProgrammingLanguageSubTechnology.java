@@ -3,19 +3,19 @@ package kodlama.io.devs.entities.concretes;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name = "programming_language")
+@Entity(name = "programminglanguagesubtechnology")
 @Setter
 @Getter
-public class ProgrammingLanguage {
+public class ProgrammingLanguageSubTechnology {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
 
-    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,orphanRemoval = true)
-    private List<ProgrammingLanguageSubTechnology> subTechnologies;
+    @ManyToOne
+    private ProgrammingLanguage programmingLanguage;
+
 }
