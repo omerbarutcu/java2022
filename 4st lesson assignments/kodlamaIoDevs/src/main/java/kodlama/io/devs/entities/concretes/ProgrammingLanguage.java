@@ -5,17 +5,17 @@ import lombok.*;
 import javax.persistence.*;
 import java.util.List;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name = "programming_language")
-@Setter
-@Getter
+@Entity
+@Table(name = "programminglanguages")
 public class ProgrammingLanguage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
 
-    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,orphanRemoval = true)
+    @OneToMany(mappedBy = "programmingLanguage", fetch = FetchType.EAGER)
     private List<ProgrammingLanguageSubTechnology> subTechnologies;
 }

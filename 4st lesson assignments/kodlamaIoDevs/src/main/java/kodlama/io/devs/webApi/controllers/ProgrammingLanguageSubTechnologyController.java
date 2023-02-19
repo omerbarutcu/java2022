@@ -1,14 +1,17 @@
 package kodlama.io.devs.webApi.controllers;
 
 import kodlama.io.devs.business.abstracts.ProgrammingLanguageSubTechnologyService;
-import kodlama.io.devs.entities.concretes.ProgrammingLanguageSubTechnology;
+import kodlama.io.devs.business.requests.CreateProgrammingLanguageSubTechnologyRequest;
+import kodlama.io.devs.business.requests.UpdateProgrammingLanguageSubTechnologyRequest;
+import kodlama.io.devs.business.responses.GetAllProgrammingLanguageSubTechnologyResponse;
+import kodlama.io.devs.business.responses.GetByIdProgrammingLanguageSubTechnologyResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping(name = "api/languagesubtechnologies")
+@RequestMapping("api/languagesubtechnologies")
 public class ProgrammingLanguageSubTechnologyController {
     ProgrammingLanguageSubTechnologyService technologyService;
 
@@ -18,13 +21,15 @@ public class ProgrammingLanguageSubTechnologyController {
     }
 
     @PostMapping("/add")
-    public void add(@RequestParam int id,@RequestBody ProgrammingLanguageSubTechnology languageSubTechnology) throws Exception {
-        technologyService.add( languageSubTechnology,id);
+    public void add(@RequestBody CreateProgrammingLanguageSubTechnologyRequest createProgrammingLanguageSubTechnologyRequest)
+            throws Exception {
+        technologyService.add(createProgrammingLanguageSubTechnologyRequest);
     }
 
     @PutMapping("/update")
-    public void update(@RequestBody ProgrammingLanguageSubTechnology languageSubTechnology) throws Exception {
-        technologyService.update(languageSubTechnology);
+    public void update(@RequestBody UpdateProgrammingLanguageSubTechnologyRequest updateProgrammingLanguageSubTechnologyRequest)
+            throws Exception {
+        technologyService.update(updateProgrammingLanguageSubTechnologyRequest);
     }
 
     @DeleteMapping("/delete/{id}")
@@ -33,12 +38,12 @@ public class ProgrammingLanguageSubTechnologyController {
     }
 
     @GetMapping("/getall")
-    public List<ProgrammingLanguageSubTechnology> getAll() {
+    public List<GetAllProgrammingLanguageSubTechnologyResponse> getAll() {
         return technologyService.getAll();
     }
 
     @GetMapping("/{id}")
-    public ProgrammingLanguageSubTechnology findById(@PathVariable int id) {
+    public GetByIdProgrammingLanguageSubTechnologyResponse findById(@PathVariable int id) throws Exception{
         return technologyService.findById(id);
     }
 }
