@@ -5,14 +5,13 @@ import kodlama.io.rentACar.business.requests.CreateBrandRequest;
 import kodlama.io.rentACar.business.requests.UpdateBrandRequest;
 import kodlama.io.rentACar.business.responses.GetAllBrandsResponse;
 import kodlama.io.rentACar.business.responses.GetByIdBrandResponse;
+import kodlama.io.rentACar.business.rules.BrandBusinessRules;
 import kodlama.io.rentACar.core.utilities.mappers.ModelMappersService;
 import kodlama.io.rentACar.dataAccess.abstracts.BrandRepository;
 import kodlama.io.rentACar.entities.concretes.Brand;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,6 +21,7 @@ public class BrandManager implements BrandService {
 
     private BrandRepository brandRepository;
     private ModelMappersService modelMappersService;
+    private BrandBusinessRules brandBusinessRules;
 
     @Override
     public List<GetAllBrandsResponse> getAll() {
@@ -41,6 +41,7 @@ public class BrandManager implements BrandService {
 
     @Override
     public void add(CreateBrandRequest createBrandRequest) {
+        this.brandBusinessRules.checkIfBrandNameExists(createBrandRequest.getName());
 
         // map = Oluşturulan createBrandRequesti brande çevirip DB ye eklemeye hazır hale getirir.
         Brand brand = this.modelMappersService.forRequest().map(createBrandRequest, Brand.class);
